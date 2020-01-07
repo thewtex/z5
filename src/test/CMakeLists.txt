@@ -2,6 +2,9 @@
 SET(TEST_LIBS
     gtest
     gtest_main
+    nlohmann_json::nlohmann_json
+    xtensor
+    xsimd
     ${CMAKE_THREAD_LIBS_INIT}
     ${FILESYSTEM_LIBRARIES}
     ${CLOUD_LIBRARIES}

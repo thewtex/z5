@@ -9,7 +9,10 @@ addPythonModule(
         handles.cxx
         util.cxx
     LIBRRARIES
-        ${COMPRESSION_LIBRARIES} 
+        nlohmann_json::nlohmann_json
+        xtensor
+        xsimd
+        ${COMPRESSION_LIBRARIES}
         ${FILESYSTEM_LIBRARIES}
         ${CLOUD_LIBRARIES}
         ${CMAKE_THREAD_LIBS_INIT}
